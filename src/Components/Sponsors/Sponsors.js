@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from '../Footer/Footer'
 import Nav from '../NavBar/Nav'
-import "./index.css";
+import "./Sponsors.css";
 
 function Sponsors() {
       return (
@@ -103,7 +103,9 @@ function Sponsors() {
                               </div>
                         </div>
                   </div>
+                  <div class = "Flu">
                   <Footer />
+                  </div>
             </div>
       );
 }
