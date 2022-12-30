@@ -6,7 +6,7 @@ import gsap from 'gsap';
 import './Home.css';
 import useCacheBannerImages from './useCacheBannerImages.tsx';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-
+import Panorama from './Panorama'
 
 const totalFrames = 29;
 
@@ -50,7 +50,7 @@ function Home() {
     <div>
       <Nav/>
         <img ref={imageRef} id="hero-trigger"></img>
-        <h1>Home Page</h1>
+       <Panorama/>
       <Footer/>
     </div>
   )
