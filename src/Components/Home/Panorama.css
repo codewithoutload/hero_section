@@ -2,24 +2,35 @@
   
 .main-container {
   display: flex;
-  
-  height: 100vh;
-width: 100vw;
+  justify-content: center;
+  height: 100vh !important;
+width: 100% !important;
+overflow-x: hidden;
+}
+.image-container{
+  width: 100%;
+ 
+  overflow: hidden;
+  display: flex;
 }
 
+.panolens-container{
+  display: none;
+   
+  }
 
 .description {
     width: 50vw;
-  
+  z-index: 4;
   font-family: 'Sequel Sans';
   font-style: normal;
   font-weight: 415;
   font-size: 2vw;
-  margin-top: 20vh;
+  top:23vh;
   position: absolute;
   text-align: center;
   text-transform: capitalize;
-  margin-left: 25vw;
+  
   color: #FFFFFF;
   
   text-shadow: 1px 4px 42px #000000;
