@@ -1,0 +1,303 @@
+/* @import url(//db.onlinewebfonts.com/c/0fe1ac6d6f0ac1b88b94be02ed75d554?family=Star+Guard+Gradient+Italic); */
+@import url(//db.onlinewebfonts.com/c/351c65048c69125fa2f3421ec197545d?family=Aileron);
+@import url(//db.onlinewebfonts.com/c/8a48811141336464d3e922b7db5e2e1d?family=Star+Guard+Gradient);
+
+* {
+  margin: 0%;
+}
+
+.leftpart {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -30%;
+  transform: scale(1.3, 1.1);
+}
+
+.merchWide {
+  margin-top: 5%;
+  width: 98%;
+  height: 80vh;
+  background-color: #161616;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  padding-right: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.merch-mob {
+  display: none;
+}
+
+.zebraStrip {
+  height: 18vw;
+  width: 5vw;
+  margin-top: 4%;
+}
+
+.purplestar {
+  height: 5vw;
+  position: absolute;
+  left: -1%;
+  top: -8%;
+}
+
+.pinkstar {
+  height: 8vw;
+  position: absolute;
+  bottom: -13%;
+  left: -5%;
+}
+
+.greenstar {
+  height: 8vw;
+  position: absolute;
+  left: 75%;
+  top: 8%;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: "Star Guard Gradient";
+  font-style: italic;
+  font-size: 7vw;
+}
+
+.merchpara {
+  color: #ffffff;
+  font-size: 1vw;
+  font-family: "Aileron";
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  float: left;
+  margin-left: 35%;
+}
+
+.rightpart {
+  position: relative;
+}
+
+.yellowstrip {
+  width: 7vw;
+  height: 6vw;
+  position: absolute;
+  top: -40.3vh;
+  left: -27vw;
+}
+
+.pinkstrip {
+  width: 6vw;
+  height: 12vw;
+  position: absolute;
+  top: -40.3vh;
+  left: -21vw;
+}
+
+.btnicon {
+  width: 1.5vw;
+  margin-right: 4%;
+}
+
+.shopNowbtn {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  font-family: "Aileron";
+  font-weight: 900;
+  align-items: center;
+  font-size: 1vw;
+  justify-content: center;
+  text-align: center;
+  width: 11vw;
+  background: #daee75;
+  border: 2px solid #1a1a1a;
+  box-shadow: 2px 2px 0px #ffffff;
+  border-radius: 30px;
+  left: -19vw;
+  bottom: -30vh;
+}
+
+.purplecurve {
+  position: absolute;
+  height: 30vw;
+  width: 14vw;
+  top: -17vw;
+  left: -4vw;
+}
+
+.yellowcurve {
+  position: absolute;
+  height: 25vw;
+  top: -24vw;
+  left: 17vw;
+}
+
+.pinkcurve {
+  position: absolute;
+  height: 20vw;
+  width: 15vw;
+  left: 9vw;
+}
+
+.bag {
+  height: 25vw;
+  width: 25vw;
+  position: absolute;
+  top: -7vw;
+  left: -5vw;
+}
+
+.blackShirt {
+  height: 23vw;
+  width: 22vw;
+  position: absolute;
+  top: -16vw;
+}
+
+.redShirt {
+  height: 22vw;
+  width: 22vw;
+  position: absolute;
+  top: -9vw;
+  left: 7vw;
+}
+
+.bag:hover {
+  background-clip: border-box;
+  backdrop-filter: blur(2px);
+}
+
+.redShirt:hover {
+  background-clip: border-box;
+  backdrop-filter: blur(2px);
+}
+
+.blackShirt:hover {
+  background-clip: border-box;
+  backdrop-filter: blur(2px);
+}
+
+.blackShirt:hover ~ .bag {
+  filter: blur(2px);
+}
+
+@media (max-width: 600px) {
+  .merchWide {
+    display: none;
+  }
+  .merch-mob {
+    display: block;
+    background-color: #161616;
+    border: 2px solid black;
+    width: 100vw;
+    height: 190vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  .merchimages-mob {
+    height: 50%;
+    display: flex;
+    position: relative;
+  }
+  .blackShirt {
+    height: 35vw;
+    width: 40vw;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+  }
+  .redShirt {
+    height: 35vw;
+    width: 38vw;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+  }
+  .bag {
+    width: 45vw;
+    height: 45vw;
+    position: absolute;
+    top: 32%;
+    left: 14%;
+  }
+  .redcurve {
+    position: absolute;
+    width: 27vw;
+    height: 30vw;
+    top: 20%;
+    left: 16%;
+  }
+  .yellowcurve {
+    position: absolute;
+    width: 23vw;
+    height: 30vw;
+    left: 49%;
+    top: 3%;
+  }
+  .pinkcurve {
+    position: absolute;
+    width: 30vw;
+    height: 23vw;
+    left: 40%;
+    top: 54%;
+  }
+  .merchtext-mob {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8%;
+  }
+  .zebratest {
+    margin-bottom: 2%;
+    width: 38vw;
+    height: 5vw;
+  }
+  .heading {
+    font-size: 15vw;
+  }
+  .merchpara {
+    position: absolute;
+    font-size: 3vw;
+    left: 8%;
+  }
+  .redstar {
+    position: absolute;
+    height: 5.5vw;
+    top: 18%;
+    left: 30%;
+  }
+  .greenstar {
+    position: absolute;
+    height: 15vw;
+    top: 25%;
+    left: 60%;
+  }
+  .pinkstar {
+    position: absolute;
+    height: 14vw;
+    width: 15vw;
+    top: 80%;
+    left: 27%;
+    transform: rotate(-30deg);
+  }
+  .shopNowbtn {
+    position: absolute;
+    width: 22vw;
+    height: 6vw;
+    left: 40%;
+    font-size: 2.2vw;
+  }
+  .btnicon-mob {
+    width: 2.5vw;
+    margin-right: 5%;
+  }
+}
