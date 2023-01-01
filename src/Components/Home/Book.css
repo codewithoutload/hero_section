@@ -1,0 +1,15 @@
+.animation__Container{
+  position: sticky;
+  top: -10vw;
+  left: 0%;
+  z-index: 1;
+  transform: scale(0.9);
+}
+.text {
+  /* width: 100px; */
+  text-align: center;
+  font-size: 3vw;
+  z-index: 20;
+  background-color: white;
+  position: relative;
+}

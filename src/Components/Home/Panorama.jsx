@@ -17,16 +17,12 @@ const imageContainer = document.querySelector(".image-container");
     viewer.add(panoramaImage);
 
 
-
- 
-
   const Panorama = () =>{
 
   return (
     <>
      
         <div className="main-container">
-   
         <div className="description">Alcheringa is the annual cultural festival of the Indian Institute of Technology, Guwahati. A splendid idea realised by a group of students in 1996 at IITG marked the dawn of one of Asia’s most exhilarating and significant cultural college fests as we know it today. </div>
      <div className="image-container">
          {}

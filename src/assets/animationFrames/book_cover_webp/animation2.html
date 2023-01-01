@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #000;
+        }
+        .canvas-div {
+            height: 100vw;
+        }
+        canvas {
+            position: sticky;
+            align-items: center;
+            left: 0%;
+            top: 0%;
+            max-width: 300vw;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="canvas-div">
+        <canvas id="hero-lightpass"></canvas>
+    </div>
+    
+</body>
+<script>
+    const html = document.documentElement;
+    const canvas = document.getElementById("hero-lightpass");
+    const context = canvas.getContext("2d");
+
+    const frameCount = 200;
+    const currentFrame = index => (
+        `${index.toString().padStart(4, '0')}.webp`
+    )
+
+    const images = [null] // since everything else is 1-indexed, explicitly fill images[0]
+    const preloadImages = () => {
+        for (let i = 1; i < frameCount; i++) {
+            images[i] = new Image();
+            images[i].src = currentFrame(i);
+        }
+    };
+
+    const img = new Image()
+    img.src = currentFrame(0);
+    canvas.width = 1700;
+    canvas.height = 1000;
+    img.onload = function () {
+        context.drawImage(img, 0, 0);
+    }
+
+    const updateImage = index => {
+        if(index<=199){
+            context.fillStyle = "black";
+            context.fillRect(0, 0, canvas.width, canvas.height);
+        }
+        context.drawImage(images[index], 0, 0);
+    }
+
+    window.addEventListener('scroll', () => {
+        const scrollTop = html.scrollTop;
+        const maxScrollTop = html.scrollHeight - window.innerHeight;
+        const scrollFraction = scrollTop / maxScrollTop;
+        const frameIndex = Math.min(
+            frameCount - 1,
+            Math.ceil(scrollFraction * frameCount)
+        );
+
+        requestAnimationFrame(() => updateImage(frameIndex + 1))
+    });
+
+    preloadImages()
+</script>
+</html>
