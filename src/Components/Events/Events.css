@@ -3,19 +3,75 @@
 	src: url(../../fonts/starguardsemital.ttf) format("truetype");
 }
 
-html {
-	font-size: 62.5%;
+@media(max-width:7680px){
+	html {
+		font-size: 300%;
+	}
+}
+
+@media(max-width:6720px){
+	html {
+		font-size: 262.5%;
+	}
+}
+
+@media(max-width:5760px){
+	html {
+		font-size: 225%;
+	}
+}
+
+@media(max-width:4800px){
+	html {
+		font-size: 187.5%;
+	}
+}
+
+@media(max-width:3840px){
+	html {
+		font-size: 150%;
+	}
+}
+
+@media(max-width:2800px){
+	html {
+		font-size: 130%;
+	}
+}
+
+@media(max-width: 3300px){
+	html {
+		font-size: 110%;
+	}
+}
+
+@media(max-width:2350px){
+	html {
+		font-size: 82%;
+	}
+}
+
+@media(max-width:1920px){
+	html {
+		font-size: 62.5%;
+	}
 }
 
 @media(max-width:998px) {
 	html {
-		font-size: 55%;
+		font-size: 37.5%;
+	}
+}
+
+@media(max-width:1400px) {
+	html {
+		font-size: 46%;
 	}
 }
 
 @media(max-width:768px) {
 	html {
-		font-size: 45%;
+		font-size: 31.5%;
 	}
 }
 
@@ -43,11 +99,11 @@ html {
 .Frame14859_Frame14859 .Group2441 {
 	position: absolute;
 	left: 19%;
-	top: 23.7111328125rem;
+	top: 9.7rem;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between;
-	align-content: space-between; */
+	/* justify-content: space-between; */
+	align-items: center;
 	width: 69%;
 	height: 93.50269775390625rem;
 }
@@ -244,15 +300,15 @@ html {
 .outline11 {
     position: relative;
 	flex: none;
-	margin-right: 5.003489255905151px;
+	margin-right: 0.5003489255905151rem;
 	width: 1.6rem;
 	height: 1.8rem;
 }
 
 .vector11 {
     position: absolute;
-	left: 1.52001953125px;
-	top: 2.08502197265625px;
+	left: 0.152001953125rem;
+	top: 0.208502197265625rem;
 	width: 91.67349806768942%;
 	height: 66.66715460959686%;
 }
@@ -260,9 +316,9 @@ html {
 .reg11 {
     position: relative;
 	flex: none;
-	margin-right: 5.003489255905151px;
+	margin-right: 0.5003489255905151rem;
 	/* width: 48.75px; */
-	height: 12px;
+	height: 1.2rem;
 	display: flex;
 	justify-content: flex-end;
 	text-align: right;
@@ -270,56 +326,75 @@ html {
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.25rem;
 	font-weight: 500;
-	line-height: 12.008374214172363px;
+	line-height: 1.2008374214172363rem;
+}
+
+.upnav {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	position: sticky;
+	top: 0;
+	background-color: #FFFBF5;
+	background: linear-gradient(0deg, rgba(243, 92, 65, 0.00) -25%, #FFFBF5 100.0%);
+	width: 100%;
+	height: 10rem;
+}
+
+.sidebar11 {
+	display: flex;
+	left: 28%;
+	width: 60rem;
+	height: 10rem;
+	justify-content: space-between;
+
+}
+
+.sidebar11 a{
+	text-decoration: none;
 }
 
 .Frame14859_Frame14859 .pronites1 {
-	position: absolute;
+	/* position: absolute;
 	left: 5.28%;
-	top: 26.5rem;
+	top: 26.5rem; */
 	height: 1.8rem;
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 1.8rem;
+	line-height: 10rem;
 }
 
-.Frame14859_Frame14859 .active .pronites1 {
-	position: absolute;
-	left: 5.26%;
-	top: 24rem;
+.sidebar11 .pt {
 	width: 10.5rem;
 	height: 5.7rem;
 	-webkit-text-stroke-width: 0.05rem;
 	-webkit-text-stroke-color: black;
-	display: flex;
-	justify-content: center;
-	text-align: center;
 	color: rgba(255,255,255,1.00);
 	font-family: Star semi;
 	font-style: italic;
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .CreatorsCamp1 {
-	position: absolute;
+	/* position: absolute;
 	left: 5.28%;
-	top: 30rem;
+	top: 30rem; */
 	height: 1.8rem;
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 1.8rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .CreatorsCamp1  {
-	left: 3%;
-	top: 28rem;
+	/* left: 3%;
+	top: 28rem; */
 	width: 20rem;
 	height: 5.7rem;
 	-webkit-text-stroke-width: 0.05rem;
@@ -333,24 +408,24 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 .Frame14859_Frame14859 .HumourFest1 {
-	position: absolute;
+	/* position: absolute;
 	left: 5.28%;
-	top: 33.6rem;
+	top: 33.6rem; */
 	height: 1.8rem;
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 1.8rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .HumourFest1 {
-	position: absolute;
+	/* position: absolute;
 	left: 2.5%;
-	top: 31.5rem;
+	top: 31.5rem; */
 	width: 20rem;
 	height: 5.7rem;
 	-webkit-text-stroke-width: 0.05rem;
@@ -364,25 +439,25 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .PROSHOWS1 {
-	position: absolute;
+	/* position: absolute;
 	left: 5.28%;
-	top: 37.2rem;
+	top: 37.2rem; */
 	height: 1.8rem;
 	color: rgba(26,26,26,1.00);
 	font-family: 'Aileron',sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
-	line-height: 1.8rem;
+	line-height: 10rem;
 }
 
 .Frame14859_Frame14859 .active .PROSHOWS1 {
-	position: absolute;
+	/* position: absolute;
 	left: 5.25%;
-	top: 35.4rem;
+	top: 35.4rem; */
 	width: 10.5rem;
 	height: 5.7rem;
 	-webkit-text-stroke-width: 0.05rem;
@@ -396,37 +471,6 @@ html {
 	font-size: 3.2rem;
 	letter-spacing: -0.1rem;
 	font-weight: 900;
-	line-height: 5.678048515319824rem;
-}
-
-.ac b{
-	position: relative;
-	top: -3.3rem;
-	font-family: Star semi;
-    font-style: italic;
-    font-weight: 900;
-    -webkit-text-stroke-width: 0.05rem;
-    -webkit-text-stroke-color: black;
-    font-size: 1.3vw;
-
-    color: #FFFFFF;
-
-	padding-top: 1.7vw;
-    margin-top: 1.8vw;
-    padding-left: 1.2vw;
-    padding-right: 1vw;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-}
-
-.ac {
-	position: relative;
-	top: 3rem;
-
-    background-image: url(./Images/Back.png);
-    
-    background-position:top;
-	background-repeat: no-repeat;
-    background-size: contain;
+	line-height: 10rem;
 }
 

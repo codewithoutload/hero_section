@@ -16,6 +16,7 @@ import Contestscc from './Components/Contests/Contestscc';
 import Contestshf from './Components/Contests/Contestshf';
 import ErrorPage from './Components/ErrorPage';
 import BookTickets from './Components/BookTickets';
+import MerchPart from './Components/MerchPart/merchpart';
 function App() {
   return (
     <BrowserRouter>
@@ -26,6 +27,7 @@ function App() {
         <Route path='/Events/cc'      element = {<Eventscc />}/>
         <Route path='/Events/hf'      element = {<Eventshf />}/>
         <Route path='Merch'       element = {<Merch />}/>
+        <Route path='/merchPart'       element = {<MerchPart />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
         <Route path='Teams'       element = {<Teams />}/>
         <Route path='MUN'         element = {<MUN />}/>
