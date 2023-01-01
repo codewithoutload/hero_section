@@ -168,24 +168,17 @@
   left: 7vw;
 }
 
-.bag:hover {
-  background-clip: border-box;
-  backdrop-filter: blur(2px);
-}
+/* .bag:hover {
+  translate: 20% -25%;
+} */
 
-.redShirt:hover {
-  background-clip: border-box;
-  backdrop-filter: blur(2px);
-}
-
+/* .redShirt:hover {
+  translate: -25% -10%;
+} */
+/* 
 .blackShirt:hover {
-  background-clip: border-box;
-  backdrop-filter: blur(2px);
-}
-
-.blackShirt:hover ~ .bag {
-  filter: blur(2px);
-}
+  translate: 10% 20%;
+} */
 
 @media (max-width: 600px) {
   .merchWide {
@@ -295,6 +288,7 @@
     height: 6vw;
     left: 40%;
     font-size: 2.2vw;
+    z-index: 3;
   }
   .btnicon-mob {
     width: 2.5vw;

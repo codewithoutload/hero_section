@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
 import "./merchPart.css";
+import React, { useEffect, useState } from "react";
+import { animated, useSpring } from "react-spring";
 import ZebraStrip from "./Images/zebraStrip.svg";
 import ZebraTest from "./Images/ZebraTest.png";
 import PinkStrip from "./Images/PinkStrip.svg";
@@ -17,7 +18,6 @@ import PurpleCurve from "./Images/purpleCurve.svg";
 import RedCurve from "./Images/RedCurve.svg";
 import YellowCurve from "./Images/yellowCurve.svg";
 import PinkCurve from "./Images/pinkCurve.svg";
-import { animated, useSpring } from "react-spring";
 
 const MerchPart = () => {
   const [bagboop, setbagBoop] = useState(false);
@@ -28,18 +28,30 @@ const MerchPart = () => {
     to: {
       zIndex: bagboop ? 1 : 0,
       rotate: bagboop ? 30 : 0,
+      translateX: bagboop ? 15 : 0,
+      translateY: bagboop ? -60 : 0,
+      transform: bagboop ? `scale(1.5,1.5)` : `scale(1,1)`,
+      opacity: blackboop || redboop ? 0.4 : 1,
     },
   });
   const redshirtstyle = useSpring({
     to: {
       zIndex: redboop ? 1 : 0,
       rotate: redboop ? -15 : 0,
+      translateX: redboop ? -40 : 0,
+      translateY: redboop ? -35 : 0,
+      transform: redboop ? `scale(1.4,1.4)` : `scale(1,1)`,
+      opacity: blackboop || bagboop ? 0.4 : 1,
     },
   });
   const blackshirtstyle = useSpring({
     to: {
       zIndex: blackboop ? 1 : 0,
       rotate: blackboop ? 15 : 0,
+      translateX: blackboop ? 15 : 0,
+      translateY: blackboop ? 35 : 0,
+      transform: blackboop ? `scale(1.3,1.3)` : `scale(1,1)`,
+      opacity: bagboop || redboop ? 0.5 : 1,
     },
   });
 
