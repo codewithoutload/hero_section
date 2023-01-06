@@ -1,7 +1,7 @@
 import React from "react";
-import Footer from '../Footer/Footer'
-import Nav from '../NavBar/Nav'
-import "./Sponsors.css";
+import Footer from './Footer/Footer'
+import Nav from './NavBar/Nav'
+import "../CSS/index.css";
 function Sponsors() {
       return (
             <div>
