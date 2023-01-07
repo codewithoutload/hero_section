@@ -5,8 +5,9 @@ import ImgAsset from './Images'
 import './Events.css'
 import { NavLink, Link } from 'react-router-dom'
 import { useLocation } from "react-router-dom";
+import NavMob from '../NavEventsMobile/NavMob'
 
-function Events() {
+function Events1() {
 
   const location = useLocation();
   const { pathname } = location;
@@ -15,13 +16,14 @@ function Events() {
     
     <div>
         <Nav />
-          <div className='Frame14859_Frame14859'>
+        <NavMob />
+        <div className='Frame14859_Frame148591'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111r' id='r1111'>
                       <div className='cmp1'>
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
@@ -54,10 +56,10 @@ function Events() {
                     </div>
                   </div>
                 </div>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111l' id='r1111'>
                       <div className='cmp2'>
                         <div className='iv11'>
                             <img className='i11' src = {ImgAsset.xwxx1} />
@@ -90,10 +92,10 @@ function Events() {
                     </div>
                   </div>
                 </div>
-                <div className='mg11'>
+                <div className='mg11' id='tile'>
                   <div className='recef11'/>
                   <div className='g11'>
-                    <div className='r111' id='r1111'>
+                    <div className='r111r' id='r1111'>
                       <div className='cmp1'>                       
                       <div className='h11'>BANGER EVENT</div>
                         <div className='t112'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
@@ -141,4 +143,4 @@ function Events() {
   )
 }
 
-export default Events
+export default Events1
