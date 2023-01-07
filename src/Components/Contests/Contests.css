@@ -69,11 +69,6 @@
 	}
 }
 
-@media(max-width:768px) {
-	html {
-		font-size: 31.5%;
-	}
-}
 
 .controller {
 	display: flex;
@@ -404,7 +399,8 @@
 		height: fit-content;
 		margin-bottom: 100 px;
 		position: relative;
-		width: auto;
+		width: 100%;
+		box-shadow: 2px 2px;
 	}
 	
 	.sidebar1{
