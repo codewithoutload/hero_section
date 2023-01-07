@@ -83,14 +83,17 @@
 }
 
 .Frame14859_Frame14859 {
-	position: relative;
-	left: 0px;
-	top: 0px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 	margin: auto;
 	width: 100%;
 	/* overflow: auto; */
 	background-color: #FFFBF5;
 	background: rgba(255,251,245,1.00);
+	padding-top: 5rem;
+	column-gap: 2rem;
+	padding-bottom: 10rem;
 }
 /* .Frame14859_Frame14859 .paperboardyellowtexture2 {
 	position: absolute;
@@ -103,15 +106,14 @@
 	mix-blend-mode: multiply;
 } */
 .Frame14859_Frame14859 .Group244 {
-	position: absolute;
-	left: 24.2%;
-	top: 9.7rem;
+	
 	display: flex;
+	flex-direction: row;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-content: space-between;
-	width: 63%;
 	height: fit-content;
+	margin-right: 10rem;
 }
 
 .mg1 {
@@ -306,14 +308,13 @@
 }
 
 .sidebar1 {
-	position: absolute;
-	left: 8%;
-	top:9.2rem;
 	height: 7rem;
-	width: 18rem;
+	width: 30rem;
+	padding-left: 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-top: 10rem;
 }
 
 .sidebar1 .head {

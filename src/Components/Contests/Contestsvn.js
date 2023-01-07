@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
-import './Contests.css'
+import './Contests.css';
 import { NavLink, Link } from 'react-router-dom'
 import { useLocation } from "react-router-dom";
 
@@ -13,11 +13,11 @@ function Events() {
   const splitLocation = pathname.split("/");
 
   return (
-    
+    <>
     <div className='controller'>
         <Nav />
           <div className='Frame14859_Frame14859'>
-              {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
+             <div>
               <div className='Group244'>
                 <div className='mg1'>
                   <div className='recef1'/>
@@ -176,6 +176,7 @@ function Events() {
                   </div>
                 </div>
               </div>
+              </div>
               <div className='sidebar1'>
                 <div className='head'>MODULES</div>
                 <ul className='mlist'>
@@ -191,14 +192,11 @@ function Events() {
                   <li><NavLink to="/Contests/vn/q">QUIZ</NavLink></li>
                   <li><NavLink to="/Contests/vn/dr">DRAMA</NavLink></li>
                 </ul>
-              {/* <NavLink to="/Contests/pt1"><div className='pronites'>PRONITES</div></NavLink>
-              <NavLink to="/Contests/cc1"><div className='CreatorsCamp'>CREATORS CAMP</div></NavLink>
-              <NavLink to="/Contests/hf1"><div className='HumourFest'>HUMOUR FEST</div></NavLink>
-              <NavLink to="/Contests/ps1"><div className='PROSHOWS'>PROSHOWS</div></NavLink> */}
               </div>
           </div>
         <Footer />
     </div>
+    </>
   )
 }
 
