@@ -269,7 +269,7 @@ img:hover .dialogue {
     padding-top: 0%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 300px) {
     .teamHeading {
         font-style: normal;
         font-weight: 620;
@@ -283,6 +283,7 @@ img:hover .dialogue {
     }
     .teamInfo {
         max-height: 600px !important;
+        
         text-align: center;
         background-color: #2c99e8;
         border-width: 2px 2px 6px 2px;

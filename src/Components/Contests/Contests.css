@@ -69,22 +69,26 @@
 	}
 }
 
-@media(max-width:768px) {
-	html {
-		font-size: 31.5%;
-	}
+
+.controller {
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 100%;
 }
 
 .Frame14859_Frame14859 {
-	position: relative;
-	left: 0px;
-	top: 0px;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
 	margin: auto;
 	width: 100%;
-	height: 205rem;
 	/* overflow: auto; */
 	background-color: #FFFBF5;
 	background: rgba(255,251,245,1.00);
+	padding-top: 5rem;
+	column-gap: 2rem;
+	padding-bottom: 10rem;
 }
 /* .Frame14859_Frame14859 .paperboardyellowtexture2 {
 	position: absolute;
@@ -97,15 +101,14 @@
 	mix-blend-mode: multiply;
 } */
 .Frame14859_Frame14859 .Group244 {
-	position: absolute;
-	left: 24.2%;
-	top: 9.7rem;
+	
 	display: flex;
+	flex-direction: row;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	align-content: space-between;
-	width: 63%;
-	height: 96rem;
+	height: fit-content;
+	margin-right: 10rem;
 }
 
 .mg1 {
@@ -300,14 +303,13 @@
 }
 
 .sidebar1 {
-	position: absolute;
-	left: 8%;
-	top:9.2rem;
-	height: 29rem;
-	width: 18rem;
+	height: 7rem;
+	width: 30rem;
+	padding-left: 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-top: 10rem;
 }
 
 .sidebar1 .head {
@@ -324,8 +326,9 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 25.5rem;
+	height: 1rem;
 	width: 18rem;
+	align-items: flex-start;
 }
 
 .sidebar1 a{
@@ -336,6 +339,7 @@
 .sidebar1 .mlist .active {
 	color: #F35C41;
 	font-weight: 600;
+	display: flex;
 }
 
 .sidebar1 b{
@@ -395,7 +399,8 @@
 		height: fit-content;
 		margin-bottom: 100 px;
 		position: relative;
-		width: auto;
+		width: 100%;
+		box-shadow: 2px 2px;
 	}
 	
 	.sidebar1{
