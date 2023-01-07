@@ -378,6 +378,10 @@
 
 }
 
+.active {
+	display: flex;
+}
+
 .sidebar11 a{
 	text-decoration: none;
 }
