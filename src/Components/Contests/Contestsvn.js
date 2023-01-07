@@ -14,7 +14,7 @@ function Events() {
 
   return (
     
-    <div>
+    <div className='controller'>
         <Nav />
           <div className='Frame14859_Frame14859'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
