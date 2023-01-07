@@ -4,50 +4,44 @@
 }
 
 * {
+  /* background: url(./images/paperboard-yellow-texture.svg);
+  mix-blend-mode: multiply; */
   margin: 0px;
   padding: 0px;
 }
 
-.container {
-  position: relative;
-background-color: #FFFBF5;
-}
+/* .container {
+} */
 
 .rect {
-  position: relative;
-  width: auto;
-  height: 260.07px;
-  left: 0px;
-  top: 225px;
-
+  width: 100vw;
+  margin-top: 1vh;
+  margin-bottom: 15vh;
 }
 
 .bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
-
-  position: relative;
-  width: auto;
-  height: 167.07px;
-  left: 0px;
-  top: 0px;
-
+  height: 20vh;
+  /* padding: 0% 10% 0% 10%; */
   background: #32A071;
   background-image: url(./images/vector.jpeg);
   box-shadow: 2px 3px 3px yellow;
 }
 
 .para {
-  position: relative;
   width: auto;
-  height: 159px;
-  left: 0px;
-  top: -9.22px;
+  /* height: 159px; */
+  /* left: 0px;
+  top: -9.22px; */
 
   font-family: 'Star Guard Semi-Italic';
   font-style: italic;
   font-weight: 400;
-  font-size: 109.811px;
-  line-height: 159px;
+  font-size: 70.811px;
+  line-height: 150%;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -61,15 +55,14 @@ background-color: #FFFBF5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  gap: 120px;
+  /* padding: 0px; */
+  /* gap: 120px; */
   background-color: #FCFFF5;
   ;
 
-  position: relative;
-  width: 75vw;
-  left: 213px;
-  top: 336px;
+  /* width: 75vw; */
+  /* left: 213px;
+  top: 336px; */
 }
 
 .box1 {
@@ -77,59 +70,58 @@ background-color: #FFFBF5;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 80px;
+  /* gap: 80px; */
 
-  width: 707px;
-  height: 611px;
+  /* width: 707px; */
+  /* height: 611px; */
 }
 
 .frame {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   background-image: url(./images/vector.jpeg);
 
-  position: relative;
-  width: 691px;
-  height: 183px;
+  /* padding: 25% 0% 25% 0%; */
+  height: 20vh;
+  width: 54vw;
+  /* width: 691px;
+  height: 183px; */
 
   border: 12.9588px solid #F8E55F;
 }
 
-.para1 {
-
-  position: relative;
-  width: 439px;
-  height: 70px;
-  left: 126px;
-  top: 42px;
-
+/* .para { 
   font-family: 'Star Guard Semi-Italic';
   font-style: italic;
   font-weight: 400;
   font-size: 54px;
-  line-height: 70px;
-
+  line-height: 150%;
 
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 
   color: #FFFFFF;
-  /* border: 4px solid #000000; */
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 2px;
 
-}
+} */
 
 .box2 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
-  gap: 137px;
+  padding: 4%;
+  width: 54vw;
+
+  justify-content: space-between;
+
+  /* gap: 137px;
 
   width: 707px;
-  height: 348px;
+  height: 348px; */
 
 
   flex: none;
@@ -138,10 +130,9 @@ background-color: #FFFBF5;
 }
 
 .ibox {
-  position: relative;
   width: 302px;
   height: 300px;
-  top: 8px;
+  /* top: 8px; */
 
   background: #D9D9D9;
 
@@ -151,16 +142,15 @@ background-color: #FFFBF5;
 }
 
 .oil {
-  position: relative;
-  top: 49px;
+  /* top: 49px;
   width: 222px;
-  height: 49px;
+  height: 49px; */
 
   font-family: 'Aileron';
   font-style: normal;
   font-weight: 900;
   font-size: 40.5455px;
-  line-height: 49px;
+  /* line-height: 49px; */
 
   text-align: center;
   text-transform: uppercase;
@@ -173,39 +163,43 @@ background-color: #FFFBF5;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 80px;
+  /* width: 54vw; */
 
-  height: 674px;
+  /* gap: 80px; */
+
+  /* height: 674px; */
 
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.co1 {
+/* .co1 {
   box-sizing: border-box;
-  width: 691px;
-  height: 150px;
-  background-image: url(./images/vector.jpeg);
+  width: 54vw;
+  /* width: 691px; */
+  /* height: 150px; */
+  /* background-image: url(./images/vector.jpeg); */
 
-  left: -16px;
-  top: -13px;
-  border: 8.9588px solid #F8E55F;
-}
+  /* left: -16px;
+  top: -13px; */
+  /* border: 8.9588px solid #F8E55F; */
+/* }  */
 
 .copara {
 
-  left: 61px;
-  top: 56px;
+  /* left: 61px;
+  top: 56px; */
 
   font-family: 'Star Guard Semi-Italic';
   font-style: italic;
   font-weight: 400;
-  font-size: 45px;
-  line-height: 70px;
-
+  font-size: 54px;
+  /* line-height: 70px; */
+  line-height: 150%;
+/* 
   padding-top: 24px;
-  padding-left: 12px;
+  padding-left: 12px; */
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -220,7 +214,6 @@ background-color: #FFFBF5;
   font-style: normal;
   text-transform: uppercase;
   font-weight: 400;
-  position: relative;
   top: 370px;
   text-align: center;
 }
@@ -239,7 +232,7 @@ background-color: #FFFBF5;
 
   background: #D9D9D9;
   background-image: url(./images/sponsor.png);
-  margin-bottom: 90px;
+  /* margin-bottom: 90px; */
 }
 
 .cocard2 {
@@ -250,13 +243,19 @@ background-color: #FFFBF5;
   background-image: url(./images/sponsor.png);
   margin-bottom: 90px;
 }
-
+.maincard{
+  margin: 0% 1.5% 2% 1.5%;
+}
 .parent {
-  width: 845px;
-  height: 411px;
+  /* width: 845px;
+  height: 411px; */
+  width: 100vw;
+  margin: auto;
+  padding: 2%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -265,7 +264,6 @@ background-color: #FFFBF5;
   font-style: normal;
   text-transform: uppercase;
   font-weight: 900;
-  position: relative;
   top: 370px;
   text-align: center;
 }
@@ -275,9 +273,9 @@ background-color: #FFFBF5;
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  gap: 80px;
+  /* gap: 80px; */
 
-  height: 674px;
+  /* height: 674px; */
   flex: none;
   order: 2;
   flex-grow: 0;
@@ -296,8 +294,8 @@ background-color: #FFFBF5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1881px;
-  gap: 80px;
+  /* height: 1881px; */
+  /* gap: 80px; */
 
 
   flex: none;
@@ -321,79 +319,112 @@ background-color: #FFFBF5;
 /* css for responsive */
 /* *************************************************** */
 
-@media only screen and (max-width: 1000px) {
-  .container {
-    width: 100vw;
+@media only screen and (max-width:1000px) {
+  .frame{
+    height:10vh;
+    border: 3.5px solid #F8E55F;
   }
+  .box2, .parent{
+    padding: 8% 3% 8% 3%;
+  }
+  .rect{
+    margin-bottom: 10vh;
+  }
+  .para{
+    font-size: 40px;
+  }
+  .bg{
+    height: 10vh;
+  }
+}
+@media  only screen and (max-width:800px) {
+  .box2{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:700px){
+  .para{
+    font-size: 30px;
+  }
+}
 
-  .rect {
+@media screen and (max-width:480px  ){
+  .para{
+    font-size: 24px;
+  }
+}
+/* @media only screen and (max-width: 1000px) { */
+  /* .container {
+    width: 100vw;
+  } */
+
+  /* .rect {
     width: 100vw;
     top: 100px;
-  }
+  } */
 
-  .para {
+  /* .para {
     font-size: 40px;
     top: -46px;
     -webkit-text-stroke-width: 0.87px;
-  }
+  } */
 
-  .bg {
+  /* .bg {
     height: 24%;
     border: 1.0535px solid #F8E55F;
-  }
-
+  } */
+/* 
   .layout {
     left: 0px;
     top: 0px;
     width: 100vw;
-  }
+  } */
 
-  .frame {
+  /* .frame {
     width: 65vw;
     height: 63px;
-    /* top: 0px; */
     border: 0.9588px solid #F8E55F;
-  }
+  } */
 
-  .para1 {
+  /* .para1 {
     font-size: 25px;
     border: none;
     text-align: center;
     top: 0px;
     width: 65vw;
     left: 0px;
-  }
+  } */
 
-  .ibox {
+  /* .ibox {
     width: 136px;
     height: 143px;
     top: -49px;
     right: 63px;
     box-shadow: 1px 1px 0px #1a1a1a;
-  }
+  } */
 
-  .oil {
-    position: relative;
+  /* .oil {
+
     height: 0px;
     width: 0px;
     font-size: medium;
     margin-left: -6px;
     line-height: 27px;
     top: -44px;
-  }
+  } */
 
-  .box1 {
+  /* .box1 {
     width: 100vw;
     height: 185px;
-  }
+  } */
 
-  .box2 {
+  /* .box2 {
     height: 6px;
     display: block;
     width: 0px;
-  }
+  } */
 
-  .copara {
+  /* .copara {
     padding-top: 3px;
     font-size: 32px;
   }
@@ -503,4 +534,4 @@ background-color: #FFFBF5;
     .copara {
         font-size: 27px;
     }
-}
+} */
