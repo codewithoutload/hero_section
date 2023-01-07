@@ -9,6 +9,10 @@ import { ReactComponent as Insta } from './Images/insta.svg';
 import { ReactComponent as Facebook } from './Images/facebook.svg';
 import { ReactComponent as Youtube } from './Images/utube.svg';
 import { ReactComponent as Twitter } from './Images/twitter.svg';
+import { ReactComponent as Insta2 } from './Images/insta2.svg';
+import { ReactComponent as Facebook2 } from './Images/facebook2.svg';
+import { ReactComponent as Youtube2 } from './Images/utube2.svg';
+import { ReactComponent as Twitter2 } from './Images/twitter2.svg';
 import Logo from '../NavBar/Logo';
 
 function Footer() {
@@ -17,7 +21,7 @@ function Footer() {
         backgroundColor: 'black',
         color: 'white',
     
-    }} className='footer'>
+    }} className='footer_desk'>
         <div className='options'>
             <ul>
                     <li><NavLink to="/Events">EVENTS</NavLink></li>
@@ -29,8 +33,14 @@ function Footer() {
                     <li><NavLink to="/Contests">CONTESTS</NavLink></li>
             </ul>
         </div>
+
+
+
         <div><Logo/></div>
-        <div>
+
+
+        
+        <div className='logo'>
             <div className='hail'>HAIL <br/> ALCHER!</div>
             <div className="stones">
                 <div className='red'>
@@ -47,31 +57,72 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div>
+
+
+
+
+        <div className='details'>
             <div className='contact'>
                 <div className='shareka'>
-                    <b>Shareka Iqbal</b> <br></br>
+                    <b>Siddant Singh</b> <br></br>
                     PR HEAD<br></br>
-                    +91 8919054239
+                    +91 9310859978
                 </div>
                 <div className='abhi'>
-                    <b>Abhishek Singh</b> <br></br>
+                    <b>Danda Akshara</b> <br></br>
                         PR HEAD<br></br>
-                        +91 9983072631
+                        +91 9908991939
                 </div>
             </div>
             <div className='socialIcon'>
-                <div className="socials">
-                    <a href='https://www.instagram.com/alcheringaiitg/' ><Insta/></a>
-                    <a href='https://www.facebook.com/alcheringaiitg' ><Facebook/></a>
-                    <a href='https://twitter.com/alcheringaiitg' ><Twitter/></a>
-                    <a href='https://www.youtube.com/@alcheringaIITG' ><Youtube/></a>
+                <div className="socials_desk">
+                    <a className='insta' href='https://www.instagram.com/alcheringaiitg/' ><Insta/></a>
+                    <a className='face'  href='https://www.facebook.com/alcheringaiitg' ><Facebook/></a>
+                    <a className='tweet'  href='https://twitter.com/alcheringaiitg' ><Twitter/></a>
+                    <a className='youtube'  href='https://www.youtube.com/@alcheringaIITG' ><Youtube/></a>
+                </div>
+                <div className="socials_mob">
+                    <a className='insta' href='https://www.instagram.com/alcheringaiitg/' ><Insta2/></a>
+                    <a className='face'  href='https://www.facebook.com/alcheringaiitg' ><Facebook2/></a>
+                    <a className='tweet'  href='https://twitter.com/alcheringaiitg' ><Twitter2/></a>
+                    <a className='youtube'  href='https://www.youtube.com/@alcheringaIITG' ><Youtube2/></a>
                 </div>
                 <div className='inqueries'>
-                For Business Inqueries: <b>alcheringa@iitg.ac.in</b>
+                For Business Enqueries: <b>alcheringa@iitg.ac.in</b>
                 </div>
             </div>
         </div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+
+        
     </div>
 )
 }
