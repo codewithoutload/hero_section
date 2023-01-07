@@ -4,12 +4,14 @@ import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
 import './Events.css'
 import { NavLink, Link } from 'react-router-dom'
+import NavMob from '../NavEventsMobile/NavMob'
 
 function Events() {
   return (
     
     <div>
         <Nav />
+        <NavMob />
           <div className='Frame14859_Frame14859'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>
