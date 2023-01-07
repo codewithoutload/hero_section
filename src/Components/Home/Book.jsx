@@ -240,12 +240,12 @@ function Book() {
             snap: "frame",
             ease: "none",
             scrollTrigger: {
-                pinSpacer:false,
-                pinSpacing:false,
+                // pinSpacer:false,
+                // pinSpacing:false,
                 trigger:'.book-container',
                 start:'100px 60%',
                 end:'50% 80%',
-                markers:true,
+                markers:false,
                 scrub: 1,
             },
             onUpdate: render // use animation onUpdate instead of scrollTrigger's onUpdate
