@@ -9,11 +9,11 @@
   /* width: 100px; */
   text-align: center;
   font-size: 3vw;
-  z-index: 20;
+  z-index: 1;
   background-color: white;
-  position: relative;
+
 }
 
 canvas {
-  width: 100vw;
+  width: 100%;
 }

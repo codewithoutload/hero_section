@@ -7,7 +7,7 @@ import { NavLink, Link } from 'react-router-dom'
 import { useLocation } from "react-router-dom";
 import NavMob from '../NavEventsMobile/NavMob'
 
-function Events() {
+function Events1() {
 
   const location = useLocation();
   const { pathname } = location;
@@ -17,7 +17,7 @@ function Events() {
     <div>
         <Nav />
         <NavMob />
-        <div className='Frame14859_Frame14859'>
+        <div className='Frame14859_Frame148591'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>
                 <div className='mg11' id='tile'>
@@ -143,4 +143,4 @@ function Events() {
   )
 }
 
-export default Events
+export default Events1

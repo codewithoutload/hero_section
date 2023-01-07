@@ -1,23 +1,8 @@
 
   
-.main-container {
-  display: flex;
-  justify-content: center;
-  height: 100vh !important;
-width: 100% !important;
-overflow-x: hidden;
-}
-.image-container{
-  width: 100%;
- 
-  overflow: hidden;
-  display: flex;
-}
 
-.panolens-container{
-  display: none;
-   
-  }
+
+
 
 .description {
     width: 50vw;
@@ -26,13 +11,45 @@ overflow-x: hidden;
   font-style: normal;
   font-weight: 415;
   font-size: 2vw;
-  top:23vh;
+  margin-top: 20vh;
+  z-index: 5;
   position: absolute;
   text-align: center;
   text-transform: capitalize;
-  
+ user-select: none;
   color: #FFFFFF;
+  cursor: pointer;
+
+ 
   
   text-shadow: 1px 4px 42px #000000;
   }
-  
+  .geet{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+  }
+  .a-scene{
+    display: flex !important;
+  }
+  html.a-fullscreen .a-canvas {
+    position:relative !important;
+    zoom: 80% !important;
+   
+  }
+  .a-enter-vr-button{
+    display: none;
+  }
+  canvas{
+    aspect-ratio:  1600px /500px; ;
+  }
+  html.a-fullscreen body {
+    height: auto !important;
+    overflow: auto !important;
+  }
+  html.a-fullscreen {
+    position: relative !important;
+    overflow-x:hidden !important ;
+  }
