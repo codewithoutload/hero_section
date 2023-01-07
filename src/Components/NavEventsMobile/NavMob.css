@@ -1,0 +1,42 @@
+.overall_nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+	background: rgba(255,251,245,1.00);
+    padding-bottom: 20px;
+    
+}
+.navheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+   
+}
+.main-nav{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.inactive{
+    display:none;
+}
+.active{
+    display:list-item;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding-left: 0px;
+    font-family: 'Aileron';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #1A1A1A;
+}
+
