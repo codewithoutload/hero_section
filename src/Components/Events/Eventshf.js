@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../Footer/Footer'
 import Nav from '../NavBar/Nav'
 import ImgAsset from './Images'
+import NavMob from '../NavEventsMobile/NavMob'
 import './Events.css'
 import { NavLink, Link } from 'react-router-dom'
 
@@ -10,6 +11,7 @@ function Events() {
     
     <div>
         <Nav />
+        <NavMob />
           <div className='Frame14859_Frame14859'>
               {/* <img className='paperboardyellowtexture2' src = {ImgAsset.Frame14859_paperboardyellowtexture3} /> */}
               <div className='Group2441'>

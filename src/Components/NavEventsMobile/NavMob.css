@@ -1,11 +1,13 @@
+
 .overall_nav{
     position: absolute;
-    top: 0px;
+    top:0px;
     width: 100%;
 	background: rgba(255,251,245,1.00);
     padding-bottom: 20px;
-    
+    z-index: 1;
 }
+
 .navheader{
     display: flex;
     flex-direction: row;
@@ -13,7 +15,6 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 20px;
-   
 }
 .main-nav{
     display: flex;
@@ -36,7 +37,17 @@ ul{
     font-weight: 900;
     font-size: 16px;
     line-height: 19px;
-
+    align-items: center;
     color: #1A1A1A;
+    
 }
-
+img{
+    height: auto;
+    width: auto;
+    margin-left: 5px;
+}
+@media (min-width: 768px) {
+    .overall_nav{
+        display:none;
+    }
+}
