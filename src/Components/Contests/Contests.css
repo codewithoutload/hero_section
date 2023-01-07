@@ -303,7 +303,7 @@
 	position: absolute;
 	left: 8%;
 	top:9.2rem;
-	height: 29rem;
+	height: 7rem;
 	width: 18rem;
 	display: flex;
 	flex-direction: column;
@@ -324,8 +324,9 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 25.5rem;
+	height: 1rem;
 	width: 18rem;
+	align-items: flex-start;
 }
 
 .sidebar1 a{
@@ -336,6 +337,7 @@
 .sidebar1 .mlist .active {
 	color: #F35C41;
 	font-weight: 600;
+	display: flex;
 }
 
 .sidebar1 b{
