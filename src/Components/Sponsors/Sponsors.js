@@ -45,35 +45,6 @@ function Sponsors() {
                                           </div>
                                     </div>
                               </div>
-
-
-                              <div className="randomheading" >
-                                    <div className="frame" >
-                                          <div className="para" > Random Heading </div>
-                                    </div>
-
-                              <div className="parent" >
-                                    <div className="maincard">
-                                                <div className="cocard" ></div>
-                                                <p className="newpara" > Indian Oil </p>
-                                          </div>
-                                          <div className="maincard">
-                                                <div className="cocard" ></div>
-                                                <p className="newpara" > Indian Oil </p>
-                                          </div>
-                                          <div className="maincard">
-                                                <div className="cocard" ></div>
-                                          <p className="newpara" > Indian Oil </p>
-                                          </div>
-                                          <div className="maincard">
-                                                <div className="cocard" ></div>
-                                          <p className="newpara" > Indian Oil </p>
-                                          </div>
-                              </div>
-                                    
-                              </div>
-
-
                               <div className="othersponsor">
                                     <div className="frame">
                                           <div className="para">Other Sponsors</div>
