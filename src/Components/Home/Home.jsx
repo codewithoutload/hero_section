@@ -7,6 +7,7 @@ import Panorama from './Panorama'
 import Book from './Book';
 import NavMob from '../NavEventsMobile/NavMob';
 import MerchPart from '../MerchPart/merchpart';
+import VRScene from './Panorama';
 
   
 function Home() {
@@ -22,6 +23,7 @@ function Home() {
                 If you need the bounding rectangle relative to the top-left corner of the document, just add the current scrolling position to the top and left properties (these can be obtained using window.scrollY and window.scrollX) to get a bounding rectangle which is independent from the current scrolling position.
       </div>
        {/* <Panorama/> */}
+       <VRScene/>
        <Book />
        <MerchPart />
        <div className='text'>
