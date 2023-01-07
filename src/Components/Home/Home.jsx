@@ -5,12 +5,14 @@ import { useEffect, useRef } from 'react';
 import './Home.css';
 import Panorama from './Panorama'
 import Book from './Book';
+import NavMob from '../NavEventsMobile/NavMob';
   
 function Home() {
   return (
     <div>
       <Nav/>
       <div className='text'>
+        <NavMob />
                 The width and height properties of the DOMRect object returned by the method include the padding and border-width, not only the content width/height. In the standard box model, this would be equal to the width or height property of the element + padding + border-width. But if box-sizing: border-box is set for the element this would be directly equal to its width or height.
                 The returned value can be thought of as the union of the rectangles returned by getClientRects() for the element, i.e., the CSS border-boxes associated with the element.
                 Empty border-boxes are completely ignored. If all the element's border-boxes are empty, then a rectangle is returned with a width and height of zero and where the top and left are the top-left of the border-box for the first CSS box (in content order) for the element.
