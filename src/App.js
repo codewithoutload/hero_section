@@ -23,6 +23,7 @@ import Contestsdr from './Components/Contests/Contestsdr';
 import ErrorPage from './Components/ErrorPage';
 import BookTickets from './Components/BookTickets';
 import MerchPart from './Components/MerchPart/merchpart';
+import Strips from './Components/Home/Strips';
 function App() {
   return (
     <BrowserRouter>
@@ -33,7 +34,7 @@ function App() {
         <Route path='/Events/pt/cc'      element = {<Eventscc />}/>
         <Route path='/Events/pt/hf'      element = {<Eventshf />}/>
         <Route path='Merch'       element = {<Merch />}/>
-        <Route path='/merchPart'       element = {<MerchPart />}/>
+        <Route path='/strip'       element = {<Strips />}/>
         <Route path='Campaigns'   element = {<Campaigns />}/>
         <Route path='Teams'       element = {<Teams />}/>
         <Route path='Contests/vn'    element = {<Contestsvn />}/>

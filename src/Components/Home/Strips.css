@@ -1,0 +1,107 @@
+.stripContainer{
+    position: relative;
+    width: 100vw;
+}
+.strip_container1{
+    position: absolute;
+    width: 100vw;
+    height: 5.8vw;
+    left: -0.1vw;
+    top: 14.5vw;
+    transform: rotate(3.64deg);
+    z-index: 3;
+    border: solid;
+    background-color: white;
+    display: flex;
+}
+.strip_container2{
+    position: absolute;
+    width: 100vw;
+    height: 5.8vw;
+    left: -0.1vw;
+    top: 23.5vw;
+    transform: rotate(-5.13deg);
+    z-index: 2;
+    border: solid;
+    background-color: white;
+    display: flex;
+}
+.strip1{
+    position: absolute;
+    width: 100vw;
+    height: 5vw;
+    left: -0.1vw;
+    top: 15vw;
+    background: #FF6290;
+    transform: rotate(3.64deg);
+    z-index: 5;
+    display: flex;
+}
+.strip2{
+position: absolute;
+width: 100vw;
+height: 5vw;
+left: -2.22px;
+top: 24vw;
+background: #099FBC;
+z-index: 3;
+transform: rotate(-5.13deg);
+}
+.edition_text{
+    color: #FFFFFF;
+    position: absolute;
+    font-family: 'Star Guard Semi-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    top: 0.5vw;
+    left: 22vw;
+}
+.football_text{
+    color: #FFFFFF;
+    top:0.5vw;
+    position: absolute;
+    font-family: 'Star Guard Semi-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    left: 57vw;
+}
+.football_text1{
+    color: #FFFFFF;
+    top:0.5vw;
+    position: absolute;
+    font-family: 'Star Guard Semi-Italic';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    left: -18vw;
+}
+.star{
+    position: absolute;
+    width: 5.5vw;
+    height: 5.5vw;
+}
+
+.star1{
+left: 11vw;
+top: -0.2vw;
+}
+
+.star2{
+left: 47vw;
+top: -0.2vw;
+}
+.star3{
+    left: 87vw;
+    top: -0.2vw;
+}
