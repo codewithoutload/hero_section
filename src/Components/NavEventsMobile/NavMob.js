@@ -13,12 +13,8 @@ const NavMob = () => {
     }
     return ( 
         <div className='overall_nav'>
-            <div className='navheader'>
-                <div className='side'><img src={logo1} alt=" " /></div>
-                <div className='dashline'><img src={img2} alt=" " /></div>
-            </div>
             <div className='main-nav'>
-                <ul style={{listStyle: 'none',}}>
+                <ul className="Navmoblist" style={{listStyle: 'none',}}>
                     <li><NavLink to="/Events/pt" style={{textDecoration: 'none',color:'#1A1A1A'}} ><span>PRONITES</span></NavLink><img src={click?dropimg:uparrow} alt="" style={{cursor:'pointer'}} onClick={handleClick}></img></li>
                     <li className={click?'inactive':'active'}><NavLink to="/Events/pt/cc" style={{textDecoration: 'none',color:'#1A1A1A'}} >CREATORS CAMP</NavLink></li>
                     <li className={click?'inactive':'active'}><NavLink to="/Events/pt/hf" style={{textDecoration: 'none',color:'#1A1A1A'}} >HUMOUR FEST</NavLink></li>

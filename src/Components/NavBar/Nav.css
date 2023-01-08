@@ -124,7 +124,7 @@ li{
 }
 img{
     height: 3vw;
-    width: 12vw;
+    width: 9vw;
 }
 
 .NavigationBar a{
@@ -137,3 +137,42 @@ img{
 .gradient{
     background-image: linear-gradient(180deg,#FFFBF5, transparent);
 }
+.mobile{
+    display: none;
+}
+.navmob{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobileList{
+    margin: 16px 0px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobileList a{
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    /* height: 12vh; */
+    /* background-color: aqua; */
+    padding-top: auto;
+}
+
+@media screen and (max-width:760px){
+
+    .main{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        flex-direction: column;
+        padding: 0% 2% 0% 2%;
+
+    }
+
+    
+}
+

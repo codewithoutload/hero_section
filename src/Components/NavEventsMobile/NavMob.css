@@ -27,7 +27,7 @@
 .active{
     display:list-item;
 }
-ul{
+.Navmoblist{
     display: flex;
     flex-direction: column;
     row-gap: 32px;

@@ -11,6 +11,10 @@ import img6 from './images/home6.png'
 import img7 from './images/camp1.png'
 import img8 from './images/camp2.png'
 import img9 from './images/camp3.png'
+import left from './images/left.svg'
+import right from './images/right.svg'
+
+
 function Campaigns() {
     return (
       <div>
@@ -22,14 +26,19 @@ function Campaigns() {
       </div>
         );
     }
-    class Cards extends React.Component {
+class Cards extends React.Component {
+  
       render() {
         return (
-          <section>
+          <section >
             {    <div className="card" id="card" style={this.props.cardStyle}>
                   <div className="cambox3i"></div>
-                  <div className="cambox2i"></div>
-                  <div className="cambox1i"><div className="text1">north east unvield</div>
+                  <div className="cambox2i">
+                  
+                <div className="text1">north east unvield</div>
+                  
+                    </div>
+                  <div className="cambox1i"></div>
                   <div className='desc'>
                   <div className="camtext2i">North East India is a microcosm of India with its own diversity in terms of languages, culture, arts and religion. There is a need to promote and unveil the true potential of this part of country, which is still unexplored by many. In Alcheringa’16: Gamescape, The North East Social Entrepreneurship Summit and The North East Townhall Discussions were held under North East Unveiled.</div>
                   </div>
@@ -66,13 +75,13 @@ function Campaigns() {
                         <hr />
                     </div>
                 </div>
-                </div>
+                {/* </div> */}
                 </div>}
            {
               <div className="card" id="card" style={this.props.cardStyle}>
-                  <div className="cambox2"></div>
-                  <div className="cambox3"></div>
-                  <div className="cambox1"><div className="text1">safher</div>
+                  <div className="cambox3i"></div>
+                  <div className="cambox2i"><div className="text1">safher</div></div>
+                  <div className="cambox1i"></div>
                   <div className='desc'>
                   <div className="camtext2i">Campus residents get app-exclusive E-Pass access for offline events! Download the Alcheringa app today and explore our impressive event line-up and merchandise as we begin our Voyage to Neoterra.</div>
                   </div>
@@ -103,9 +112,10 @@ function Campaigns() {
                         <hr />
                     </div>
                 </div>
-                </div>
-                </div>}
-          </section>
+                  </div>
+                }
+              </section>
+
         )
       }
     }
@@ -160,12 +170,12 @@ function Campaigns() {
         return (
           <div className="cards-slider">
             <div className="slider-btns">
-              <button className="slider-btn btn-l" onClick={() => this.handleClick('prev')}>&lt;</button>
-              <button className="slider-btn btn-r" onClick={() => this.handleClick('next')}>&gt;</button>
-            </div>
-            <Cards cardStyle={this.state.cardStyle} />
-          </div>
-        )
-      }
-    }
+              <img src={left} className="slider-btn btn-l" onClick={() => this.handleClick('prev')} />
+              <img src={right} className="slider-btn btn-r" onClick={() => this.handleClick('next')}/>
+             </div>
+             <Cards cardStyle={this.state.cardStyle} />
+           </div>
+         )
+       }
+     }
 export default Campaigns;                   

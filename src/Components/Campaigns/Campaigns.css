@@ -17,7 +17,7 @@ transform: matrix(1, 0, 0, 1, 0, 0);
 .cambox1
 {
     box-sizing: border-box;
-position:absolute;
+/* position:absolute; */
 display: flex;
 gap:8vh;
 align-items: center;
@@ -32,7 +32,7 @@ border: 5px solid #000000;
 .cambox2{
   box-sizing: border-box;
 
-position: absolute;
+/* position: absolute; */
 width: 200%;
 height: 60px;
 left: -20px;
@@ -43,7 +43,7 @@ border: 5px solid #000000;
 }
 .text1
 {
-  position: relative;
+  /* position: relative; */
 font-family: 'My Custom Font';
 font-style: normal;
 font-weight: 400;
@@ -64,7 +64,7 @@ text-shadow:
 {
   box-sizing: border-box;
 
-position: absolute;
+/* position: absolute; */
 width: 200%;
 height: 59px;
 left: -20px;
@@ -78,7 +78,7 @@ border: 5px solid #000000;
 {
   box-sizing: border-box;
 align-items: center;
-  position:absolute;
+  /* position:absolute; */
 display: flex;
 flex-direction: column;
 gap:6vh;
@@ -93,7 +93,10 @@ gap:6vh;
 .cambox2i{
   box-sizing: border-box;
 align-items: center;
-position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+/* position: absolute; */
 width: 100%;
 height: 60px;
 left: -20px;
@@ -106,7 +109,7 @@ border: 5px solid #000000;
 {
   box-sizing: border-box;
 
-position: absolute;
+/* position: absolute; */
 width: 100%;
 height: 59px;
 left: -20px;
@@ -118,8 +121,11 @@ border: 5px solid #000000;
 }
 .camtext2i
 {box-sizing: border-box;
-  position: relative;
-width: 90vw;
+  padding: 3% 5% 3% 5%;
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+width: 100vw;
 font-family: 'Aileron';
 font-style: normal;
 font-weight: 200;
@@ -143,7 +149,7 @@ line-height: 2.5vh;
 .slideri{
   margin: auto;
   margin-left: 0px;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   display: grid;
   top:50vh;
@@ -208,7 +214,7 @@ border-color: #000000;
   
   content: '';
   height: 100%;
-  position: absolute;
+  /* position: absolute; */
   width: 0;
   z-index: 2;
 }
@@ -228,7 +234,7 @@ border-color: #000000;
 	white-space: nowrap;
 	width: 100%;
 	height: 60%;
-	position: relative;
+	/* position: relative; */
 	display: inline-block;
   background: #FFFBF5;
 }
@@ -237,7 +243,7 @@ border-color: #000000;
   align-items: center;
   background:#FFFBF5;
   width: 100%;
-	position: relative;
+	/* position: relative; */
 	display: inline-block;
 	left: 0;
 	clear: both;
@@ -245,7 +251,7 @@ border-color: #000000;
 	float: none !important;
 	transition: transform .2s ease-in-out;
 	vertical-align: top;
-  padding: 20px 25px;
+  /* padding: 20px 25px; */
 }
 .card .desc {
   word-wrap: break-word;
@@ -262,9 +268,18 @@ border-color: #000000;
   cursor: pointer;
   background: none;
   outline: none;
-  position: absolute;
-  z-index: 999;
+  /* position: absolute; */
+  z-index: 9990;
   transition: all 0.6s ease 0s;
+}
+.slider-btns{
+  box-sizing: border-box;
+  position: relative;
+  top:112px;
+  width: 100vw;
+  display: flex;
+  padding: 0% 3% 0% 3%;
+  justify-content: space-between;
 }
 
 .slider-btn:hover {
