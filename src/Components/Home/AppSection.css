@@ -1,0 +1,56 @@
+
+.app_section_container{
+    position: relative;
+    height: 50vw;
+    overflow: hidden;
+}
+.bg2{
+    position: absolute;
+    width: 40vw;
+    left: 40vw;
+    top: -8vw;
+    height: 40vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.bg1{
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 50vw;
+    top: 15vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(111.7deg);
+}
+.bg3{
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: 5vw;
+    top: 10vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(-117.94deg);
+}
+.alcherlady{
+    position: absolute;
+    width: 33vw;
+    left: 55vw;
+    top: 10vw;
+}
+.download{
+    position: absolute;
+    width: 40vw;
+    top: 17vw;
+    left: 20vw;
+}
+.our{
+    position: absolute;
+    width: 15vw;
+    top: 25vw;
+    left: 24.6vw;
+}
+.app{
+    position: absolute;
+    width: 15vw;
+    top: 25vw;
+    left: 43vw;
+}

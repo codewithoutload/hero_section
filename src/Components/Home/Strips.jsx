@@ -3,6 +3,7 @@ import './Strips.css';
 import star from './images/Mask group.png';
 function Strips() {
   return (
+    <div>
     <div className='stripContainer'>
         <div className='strip_container1'>
         </div>
@@ -24,6 +25,7 @@ function Strips() {
                 <div className='football_text'>500+ COLLEGES</div>
                 <div><img className='star star3' src={star}></img></div>
             </div>
+    </div>
     </div>
   )
 }

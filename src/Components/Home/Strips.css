@@ -1,6 +1,7 @@
 .stripContainer{
     position: relative;
     width: 100vw;
+    height: 45vw;
 }
 .strip_container1{
     position: absolute;
@@ -36,6 +37,10 @@
     transform: rotate(3.64deg);
     z-index: 5;
     display: flex;
+  text-shadow: -0.2vw -0.2vw 0 #000,
+0.2vw -0.2vw 0 #000,
+-0.2vw 0.2vw 0 #000,
+0.2vw 0.2vw 0 #000;
 }
 .strip2{
 position: absolute;
@@ -46,6 +51,10 @@ top: 24vw;
 background: #099FBC;
 z-index: 3;
 transform: rotate(-5.13deg);
+text-shadow: -0.2vw -0.2vw 0 #000,
+0.2vw -0.2vw 0 #000,
+-0.2vw 0.2vw 0 #000,
+0.2vw 0.2vw 0 #000;
 }
 .edition_text{
     color: #FFFFFF;
@@ -104,4 +113,10 @@ top: -0.2vw;
 .star3{
     left: 87vw;
     top: -0.2vw;
+}
+
+@media  screen and (max-width:768px) {
+    .stripContainer{
+        display: none;
+    }
 }
